@@ -37,8 +37,8 @@ export default function CardsWork() {
         <div className="cw-word" aria-hidden="true">SELECTED WORK</div>
         <div className="cw-markers" aria-hidden="true">{['01', '02', '03', '04', '05', '04', '03', '02', '01'].map((n, i) => <span key={i}>{n}</span>)}</div>
         <div className="cw-intro">
-          <p className="cw-kicker">The collection · 05 systems</p>
-          <h2 className="cw-title">Real businesses.<br/>Real software.</h2>
+          <p className="cw-kicker">Selected work</p>
+          <h2 className="cw-title">Five apps for<br/>five businesses.</h2>
         </div>
         <div className="cw-track">{projects.map((p, i) => <ProjectCard key={p.slug} project={p} index={i}/>)}</div>
         <p className="cw-hint" aria-hidden="true">Scroll to deal ↓</p>

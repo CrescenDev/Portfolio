@@ -65,3 +65,5 @@ footer{border-top:1px solid #ffffff14}
   .marquee span{font-size:24px}.section-word{font-size:24vw}
 }
 @media(prefers-reduced-motion:reduce){body:after,.marquee>div,.pulse{animation:none}}
+.contact-email{display:inline-block;margin-top:18px;font-size:15px;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px;transition:color .2s}
+.contact-email:hover{color:#ffb38c}
