@@ -50,7 +50,7 @@ Last validated on 2026-11-08, after the screenshot integration.
 - New captures: 7 Forge (4 desktop, 3 native Android) and 5 LJ Vet (3 desktop, 2 native Android). Each was reviewed visually before use. The Forge draft review was recaptured after its "Draft ready" toast closed.
 - All 16 reused images were reviewed on contact sheets, and their alt text was written to match what is visible.
 - LJ Vet's 3D primary is the populated Pets & Clients register. The admin dashboard moved into the gallery because the demo seed has no paid bills, so its sales figures are ₱0.00.
-- Known, kept as-is: the reused LaundroGo owner dashboard shows the app's "You are using the default password" banner from the local demo account.
+- The reused LaundroGo owner dashboard had the demo account's "You are using the default password" banner. It was removed from the image (the page content below it was moved up); nothing else in the screenshot was changed.
 - Browser captures blocked every non-loopback request. Both source servers ran with a process-level network guard, and no outside request was recorded.
 - `git status` in The Forge PH 2.0 and LJ Veterinary Clinic Management System matched the pre-capture state. No source, schema or seed was changed, and no database was reset, migrated or seeded.
 
